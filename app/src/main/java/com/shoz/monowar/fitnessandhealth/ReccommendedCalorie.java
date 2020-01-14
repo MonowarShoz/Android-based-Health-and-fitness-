@@ -262,7 +262,7 @@ public class ReccommendedCalorie extends AppCompatActivity {
             if (requestCode == EXERCISE_REQUEST) {
                 if (resultCode == RESULT_OK) {
                     // calBurn += (int) Math.round((mPref.getInt("STEP_NUMBER", 0) * 0.05));
-                    calBurn  = (int) Math.round(mPref.getInt("TIME", 0) * .0175 * weight * MET);
+                    calBurn  += (int) Math.round(mPref.getInt("TIME", 0) * .0175 * weight * MET);
                 tmpStr = "Calories actively burned today:\n" + calBurn;
                     burnedCalories.setText(tmpStr);
 
