@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rela2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".food_main_chart"
+    tools:showIn="@layout/activity_food_main_chart">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_margin="30dp"
+        android:layout_marginBottom="-28dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Enter your favorite foods here"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/rela"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context=".ShowExerciseDetails">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/showVid"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Watch Video" />
+
+
+    <TextView
+        android:id="@+id/ExNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showVid"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/WodescEx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ExNAME"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp" />
+
+</RelativeLayout>

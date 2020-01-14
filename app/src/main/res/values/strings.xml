@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Fitness and Health</string>
+    <string name="Email">Email</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="Password">password</string>
+    <string name="login">Login</string>
+    <string name="minimum_password">minp</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="dont_have_an_account_sign_up">Dont have an account sign up</string>
+    <string name="btn_forgot_password">forgot_password?</string>
+    <string name="img">TODO</string>
+    <string name="how_active_are_you">How Active are you?</string>
+    <string-array name="HowActive">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Active</item>
+    </string-array>
+    <string name="title_activity_nav_rex">NavREx</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="go">GO</string>
+    <string name="insert_your_workout_time">Insert Your WorkOut Time</string>
+    <string name="exercise">Exercise</string>
+    <string name="food">FOOD</string>
+    <string name="hello">Hello!</string>
+    <string name="bmi_goes_here">BMI goes here</string>
+    <string name="eat_this_much">Eat this much</string>
+    <string name="you_can_do_it">You can do it</string>
+    <string name="_1500_2000">1500/2000</string>
+    <string name="chart_of_burned_calories_and_consumed_calories">chart of burned calories and consumed calories</string>
+    <string-array name="Exercise_List">
+        <item>Push-ups to Get You Ripped</item>
+        <item>Planks for killer Abs</item>
+        <item>Leg-Toning Workout</item>
+        <item>Squats</item>
+        <item>Donkey Kicks</item>
+        <item>Standing Oblique Crunches</item>
+        <item>Burpess</item>
+
+    </string-array>
+    <string name="title_activity_food_main_chart">food_main_chart</string>
+    <string name="what_did_you_eat">What did you eat?</string>
+    <string name="how_many_calories_per_serving">How many Calories per serving?</string>
+    <string name="how_many_servings_did_you_eat">How many servings did you eat?</string>
+    <string name="food_name">Enter food if not found in option</string>
+    <string name="cal_serving">Cal/serving</string>
+    <string name="servings">Servings</string>
+    <string name="done">Done</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_2"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <ImageView-->
+<!--        android:layout_width="0"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/completed_task" />-->
+    <TextView
+        android:id="@+id/txtv2"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The image has been uploaded to server."
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

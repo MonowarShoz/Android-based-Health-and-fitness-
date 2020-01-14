@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shoz.monowar.fitnessandhealth">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/stfit"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Show_chart"></activity>
+        <activity android:name=".web_activity" />
+        <activity
+            android:name=".food_main_chart"
+            android:label="@string/title_activity_food_main_chart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ShowExerciseDetails" />
+        <activity android:name=".ExerciseCategory" />
+        <activity android:name=".exerciseActivity" />
+        <activity android:name=".Food" />
+        <activity android:name=".ReccommendedCalorie" />
+        <activity
+            android:name=".RecordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".Profile" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".signup" />
+        <activity android:name=".splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

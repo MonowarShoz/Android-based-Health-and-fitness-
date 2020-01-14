@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greetingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/hello"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/bmiText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/greetingText"
+            android:background="@android:color/holo_orange_light"
+            android:fontFamily="serif"
+            android:text="@string/bmi_goes_here"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bmiText"
+            android:layout_marginTop="20dp"
+            android:background="@color/common_google_signin_btn_text_dark_pressed"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/currentCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recCalories"
+            android:layout_marginTop="35dp"
+            android:background="@android:color/holo_orange_light"
+            android:fontFamily="serif"
+            android:text="What you ate"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/progressMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/burnedCalories"
+            android:layout_marginTop="31dp"
+            android:background="@android:color/holo_green_light"
+            android:text="@string/you_can_do_it"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/burnedCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/currentCalories"
+            android:layout_marginTop="33dp"
+            android:background="@android:color/holo_orange_light"
+            android:fontFamily="serif"
+            android:text="Calories burned"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="30sp" />
+
+        <!--        <ProgressBar-->
+<!--            android:id="@+id/background_progressbar"-->
+<!--            style="?android:attr/progressBarStyleHorizontal"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:indeterminate="false"-->
+<!--            android:layout_below="@id/recCalories"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:max="100"-->
+<!--            android:progress="100"-->
+<!--            android:progressDrawable="@drawable/stats_full" />-->
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/stats_progressbar"-->
+<!--            style="?android:attr/progressBarStyleHorizontal"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:layout_below="@+id/recCalories"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:indeterminate="false"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:max="100"-->
+<!--            android:progress="70"-->
+<!--            android:progressDrawable="@drawable/stats_progress"-->
+<!--            android:progressTint="@android:color/holo_blue_bright"/>-->
+
+<!--        <TextView-->
+<!--        android:id="@+id/number_of_calories"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_below="@id/recCalories"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/shoHint"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/recCalories"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="250dp"-->
+<!--            android:text="@string/chart_of_burned_calories_and_consumed_calories"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="20sp" />-->
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/design_default_color_secondary"
+
+
+            app:menu="@menu/bottom_nav_menu">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

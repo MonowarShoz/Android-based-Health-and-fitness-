@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Exercise"
+        android:icon="@drawable/exerc"
+        android:title="@string/exercise" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Chart" />
+
+
+    <item
+        android:id="@+id/navigation_FOOD"
+        android:icon="@drawable/dinner"
+        android:title="@string/food" />
+    <item
+        android:id="@+id/ref"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="REFERENCE" />
+
+
+</menu>
