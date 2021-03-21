@@ -7,3 +7,5 @@ this app calculates User's calories based on user's preferences and recommends s
 3.	Architected using the youtube API,web API, shared preferences, Sqlite database and Google’s Firebase.
 4.	Calculates user’s calorie based on data and gives daily calorie recommendation and burned calories based on workout.
 
+![](healthImage/newal.jpg)
+![](healthImage/prf.jpg)
